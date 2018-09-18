@@ -140,6 +140,10 @@ const checkDimensions = (req, res, next) => {
 //Routes//////////////////////
 //////////////////////////////
 
+app.get('/', (req,res) => {
+	res.send('up and running');
+})
+
 app.post('/upload/:width/:height/:type', checkDimensions, (req, res) => {
   upload( req, res, (err) => {
   	if (err) {
