@@ -60,6 +60,7 @@ const port = 3000;
 //////////////////////////////
 
 //Auth Middleware
+/*
 const requireAuth = (req, res, next) => {
   if(("authorization" in req.headers)) {
     if(req.headers.authorization[3] === " ") {
@@ -92,7 +93,7 @@ const requireAuth = (req, res, next) => {
     res.status(401).json(message);
   }
 }
-
+*/
 //Dimension Middleware
 const checkDimensions = (req, res, next) => {
 	let width = req.params.width;
