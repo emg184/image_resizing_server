@@ -9,8 +9,8 @@ const fs = require("fs");
 const sharp = require('sharp');
 const compression = require('compression');
 const helmet = require('helmet');
-const config = require('./config.js');
-const jwt = require('jsonwebtoken');
+//const config = require('./config.js');
+//const jwt = require('jsonwebtoken');
 
 //////////////////////////////
 //Initilizations//////////////
